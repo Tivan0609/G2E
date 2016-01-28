@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="fp-enabled" style="overflow: hidden; height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ClubOne</title>
+<meta name="author" content="Alvaro Trigo Lopez">
+<meta name="Resource-type" content="Document">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage-en.css">
+<link rel="stylesheet" type="text/css" href="css/example3.css">
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+<script id="twitter-wjs" src="js/widgets.js"></script><script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage', 'lastPage'],
+				menu: '#menu',
+				css3: true,
+				scrollingSpeed: 1000
+			});
+
+			$('#showExamples').click(function(e){
+				e.stopPropagation();
+				e.preventDefault();
+				$('#examplesList').toggle();
+			});
+
+			$('html').click(function(){
+				$('#examplesList').hide();
+			});
+		});
+	</script>
+<script type="text/javascript">
+$(document).ready(function () {
+$('iframe[src*="youtube.com"]').wrap('<div class="youtubecontent" />');
+});
+</script>
+</head>
+<body class="fp-viewing-firstPage" data-twttr-rendered="true" style="overflow: hidden; height: 100%;">
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<ul id="menu">
+	<li data-menuanchor="firstPage" class="active"><a href="#firstPage">ClubOne</a></li>
+	<li data-menuanchor="secondPage" class=""><a href="#secondPage">Platform</a></li>
+	<li data-menuanchor="3rdPage" class=""><a href="#3rdPage">Game</a></li>
+    <li data-menuanchor="lastPage" class=""><a href="#lastPage">About Us</a></li>
+</ul>
+
+<div id="fullpage" class="fullpage-wrapper" style="height: 100%; position: relative; touch-action: none; transition: all 1000ms ease; -webkit-transition: all 1000ms ease; -webkit-transform: translate3d(0px, 0px, 0px); transform: translate3d(0px, 0px, 0px);">
+
+	<div class="section fp-section fp-table active" id="section0" data-anchor="firstPage" style="height:921px;">
+    <div class="fp-tableCell img01" style="height: 921px;">
+    <div class="video">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/prxeBfwb4PY?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+     </div>
+    </div>
+    </div>
+
+	<div class="section fp-section" id="section1" data-anchor="secondPage" style="height:921px;">
+    <div class="fp-tableCell img02" style="height: 921px;">
+    <div class="mob_box">
+      </div>
+    <div class="dm-p"><img src="images/img02-en.png" width="100%" height="auto";></div>
+    </div>
+	</div>
+
+	<div class="section fp-section fp-table" id="section2" data-anchor="3rdPage" style="height:921px;">
+    <div class="fp-tableCell img03" style="height: 921px;">
+    <div class="dm-p"><img src="images/img03.png" width="100%" height="auto";></div>
+    </div>
+	</div>
+    
+    <div class="section fp-section fp-table" id="section3" data-anchor="lastPage" style="height:921px;">
+    <div class="fp-tableCell img04" style="height: 921px;">
+    </div>
+	</div>
+</div>
+
+<div id="infoMenu"><span>Copyright © 2015 PerfectPairs Gaming. All Rights Reserved.</span>
+	<div class="copyr"><a href="web-G2E.html">繁體</a>｜<a href="web-G2E-en.html">English</a>｜<a href="mailto:business@p2gaming.com"><img src="images/img06-em.png">Email</a></div>
+</div>
+
+</body></html>

@@ -1,0 +1,138 @@
+/*  手機版本 768x1280 */
+
+@media only screen and (min-width : 595px) and (max-width : 800px) {
+	.video{ width:90% !important; left:5% !important; top:55% !important;}
+	#infoMenu span{ display:none;}
+	.dm-p { display:none !important;}
+	.img01{ background:url(../images/mb-bg1-en.jpg) no-repeat center !important; background-size:cover !important; background-attachment:fixed !important; display:block;}
+	.img02{ background:url(../images/mb-bg2-en.jpg) no-repeat center bottom !important; background-size:cover !important; display:block;}
+	.img03{ background:url(../images/mb-bg3.jpg) no-repeat center top !important; background-size:cover !important; display:block;}
+	.img04{ background:url(../images/mb-bg4.jpg) no-repeat center top !important; background-size:cover !important; display:block;}
+}
+
+@media only screen and (min-width : 480px) and (max-width : 595px) {
+	.video{ width:90% !important; left:5% !important; top:55% !important;}
+	#infoMenu span{ display:none;}
+	.dm-p { display:none !important;}
+	.img01{ background:url(../images/mb-bg1-en.jpg) no-repeat center !important; background-size:cover !important; background-attachment:fixed !important; display:block;}
+	.img02{ background:url(../images/mb-bg2-en.jpg) no-repeat center bottom !important; background-size:cover !important; display:block;}
+	.img03{ background:url(../images/mb-bg3.jpg) no-repeat center top !important; background-size:cover !important; display:block;}
+	.img04{ background:url(../images/mb-bg4.jpg) no-repeat center top !important; background-size:cover !important; display:block;}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	.video{ width:90% !important; left:5% !important; top:55% !important;}
+	#infoMenu span{ display:none;}
+	.dm-p { display:none !important;}
+	.img01{ background:url(../images/mb-bg1-en.jpg) no-repeat center !important; background-size:cover !important; background-attachment:fixed !important; display:block;}
+	.img02{ background:url(../images/mb-bg2-en.jpg) no-repeat center bottom !important; background-size:cover !important; display:block;}
+	.img03{ background:url(../images/mb-bg3.jpg) no-repeat center top !important; background-size:cover !important; display:block;}
+	.img04{ background:url(../images/mb-bg4.jpg) no-repeat center top !important; background-size:cover !important; display:block;}
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+	font-family:"微軟正黑體";
+	font-size:14px;
+    /*Avoid flicker on slides transitions for mobile phones #336 */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+	background:#000;
+}
+#superContainer {
+    height: 100%;
+    position: relative;
+
+    /* Touch detection for Windows 8 */
+    -ms-touch-action: none;
+
+    /* IE 11 on Windows Phone 8.1*/
+    touch-action: none;
+}
+.fp-section {
+    position: relative;
+    -webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */
+    -moz-box-sizing: border-box; /* <=28 */
+    box-sizing: border-box;
+}
+.fp-slide {
+    float: left;
+}
+.fp-slide {
+    height: 100%;
+    display: block;
+}
+
+.fp-section.fp-table, .fp-slide.fp-table {
+    display: table;
+    table-layout:fixed;
+    width: 100%;
+}
+.fp-tableCell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+	position:relative;
+}
+
+.section{background-size:cover; background-attachment:fixed;}
+.img01{ background:url(../images/web_bg01-en.jpg) no-repeat center; background-size:cover; background-attachment:fixed; display:block;}
+.img02{ background:url(../images/web_bg02.jpg) no-repeat center bottom; background-size:cover; display:block;}
+.img03{ background:url(../images/web_bg03.jpg) no-repeat center top; background-size:cover; display:block;}
+.img04{ background:url(../images/web_bg04.jpg) no-repeat center top; background-size:cover; display:block;}
+#section0 img{ height:auto;}
+#section1 img{ height:auto;}
+#section2 img{ height:auto;}
+#section3 img{ height:auto;}
+
+.linkbox{ width:35%; height:50%; top:20%; left:52%; position:absolute;}
+.copyr { float:right; font-size:1.25em !important; color:#FFF; padding-right:1%;}
+.copyr a{ text-decoration:none; color:#FFF;}.copyr a img{vertical-align:middle;}
+.copyr a:hover{ text-decoration:underline;}
+
+.video{ width:35%; height:auto; top:50%; left:10%; position:absolute;}
+.youtubecontent{
+position: relative;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+.youtubecontent{
+padding-bottom: 56.25%;
+}
+.youtubecontent iframe,
+.youtubecontent object,
+.youtubecontent embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+@media only screen and (min-width : 1030px) and (max-width : 1299px) {
+	.video{ left:15% !important;}
+}
+@media only screen and (min-width : 1300px) and (max-width : 1400px) {
+	#section1 .dm-p { width:1200px !important; height:700px !important; display:block; margin:0 auto;}
+	#section2 .dm-p { width:1200px !important; height:700px !important; display:block; margin:0 auto; padding-top:30px;}
+	.video{ left:16% !important; top:35% !important;}
+}
+@media only screen and (min-width : 1600px) {
+	#section1 .dm-p { width:1530px !important; height:800px !important; display:block; margin:0 auto;}
+	#section2 .dm-p { width:1530px !important; height:800px !important; display:block; margin:0 auto; padding-top:30px;}
+	.video{ left:15% !important; top:50% !important;}
+}
+@media only screen and (min-width : 1900px) {
+	.video{ top:50% !important;}
+}
+
+@media only screen and (min-width : 801px) and (max-width : 2000px) {
+	.img01{ background:url(../images/web_bg01-en.jpg) no-repeat center; background-size:cover; background-attachment:fixed; display:block;}
+	.img02{ background:url(../images/web_bg02.jpg) no-repeat center bottom; background-size:cover; display:block;}
+	.img03{ background:url(../images/web_bg03.jpg) no-repeat center top; background-size:cover; display:block;}
+	.img04{ background:url(../images/web_bg04.jpg) no-repeat center top; background-size:cover; display:block;}
+	.video{ width:35%; height:auto !important; top:50% !important; left:10%; position:absolute;}
+}
